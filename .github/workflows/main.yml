@@ -44,4 +44,4 @@ jobs:
           build_dir: dist
           keep_history: true
         env:
-          GITHUB_TOKEN: ${{ secrets.display }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
